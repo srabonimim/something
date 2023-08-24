@@ -1,0 +1,118 @@
+/*
+====================================
+BIGScreen - Tablate
+====================================
+*/
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+.top-left ul li {
+    padding-left: 20px;
+}
+
+.top-left ul li a span {
+    margin-right: 5px;
+}
+
+ 
+}
+   
+
+/*
+====================================
+ small screen - Tablate
+====================================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+/*header-top-area*/
+
+ .top-left ul li {
+    padding-left: 30px;
+}
+
+.top-left ul li a span {
+    margin-right: 5px;
+}
+
+.pull-inner {
+    flex-wrap: wrap;
+}
+
+.footer-right {
+   text-align: left;
+}
+
+
+
+ }
+
+
+
+
+/*
+====================================
+ small screen - Mobile
+====================================
+*/
+
+
+@media screen  and (max-width: 767px) {
+
+
+ /*header-top-area*/
+ .pull-inner {
+    flex-wrap: wrap;
+}
+
+.top-left ul  {
+   flex-wrap: wrap;
+}
+
+ .top-left ul li {
+    margin-left: 0px;
+}
+
+.top-left ul li a {
+    font-size: 16px;
+}
+
+
+.top-left ul li a span {
+    margin-right: 5px;
+}
+
+
+
+ /*last-footer-area*/
+
+ .footer-right {
+   text-align: left;
+   
+}
+
+
+
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
